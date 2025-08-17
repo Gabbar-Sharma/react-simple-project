@@ -15,7 +15,7 @@ const Contact = () => {
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"
-        className="text-center  md:w-[60%] w-[100%] "
+        className="text-center pt-[100px] md:w-[60%] w-[100%] "
       >
         <h2 className="text-[#284B63] mt-9  md:text-[42px] text-3xl font-medium ">
           Our Contact
