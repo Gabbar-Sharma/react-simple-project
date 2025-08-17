@@ -1,0 +1,33 @@
+.navlink {
+  font-weight: 500;
+  transition: 0.3s;
+}
+.navlink:hover,
+.active {
+  color: #3c6e71;
+}
+.navbar {
+  background-color: #284b63;
+  color: #fff;
+  position: relative;
+  z-index: 999;
+}
+.section {
+  background-color: #353535;
+  width: 100%;
+  height: auto;
+}
+.nav-list {
+  backdrop-filter: blur(190px);
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  width: 100%;
+}
+.right-hero {
+  line-height: 1.5;
+}
+
+p {
+  color: #e5e7eb;
+}
