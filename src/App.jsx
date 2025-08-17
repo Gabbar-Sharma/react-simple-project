@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {  HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/Header/Nav';
 import Home from './Pages/Home';
 import About from './Pages/About';
@@ -21,7 +21,8 @@ const App = () => {
     });
   }, []);
   return (
-    <Router>
+    
+       <Router>
       <Nav />
       <div>
         <Routes>
@@ -42,6 +43,7 @@ const App = () => {
         </Routes>
       </div>
     </Router>
+   
   );
 };
 

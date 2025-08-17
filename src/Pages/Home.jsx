@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 const Home = () => {
   return (
-    <div className="section px-2 md:px-[7%] md:pt-[70px] flex justify-between w-[100%]  items-center  flex-col md:flex-row ">
+    <div className="section  px-2 md:px-[7%] md:pt-[70px] flex justify-between w-[100%]  items-center  flex-col md:flex-row ">
       {/* Yaha tumhara content aayega/left  */}
       <div
         data-aos="fade-right"

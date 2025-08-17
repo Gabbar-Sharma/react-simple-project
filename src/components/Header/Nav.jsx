@@ -23,7 +23,9 @@ const Nav = () => {
       <div className="flex items-center md:px-[7%] px-2 py-2 bg-[#353535] text-[#ffff] font-poppins h-[40px] md:h-[70px] w-[100%] justify-between">
         {/* Logo */}
         <div className="logo text-[18px] md:text-[19px] font-bold">
-          <a href="/home">Soltrix</a>
+           <Link to="/home" >
+            Soltrix
+          </Link>
         </div>
         {/* Desktop Menu */}
         <ul className="hidden md:flex flex-row gap-[55px] text-[16px] font-medium">
